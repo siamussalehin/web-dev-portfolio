@@ -34,7 +34,9 @@
     font-size: 18px;
     color: #757575;
 }
-
+.text-centre{
+    text-align: center;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -74,6 +76,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* Banner Styles */
 .banner{
     display: flex;
@@ -105,7 +111,7 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+   
 }
 .item-description{
     font-weight:700;
@@ -116,4 +122,56 @@ main{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+}
+/* what i do */
+.skills-container{
+    display: flex;
+    gap:24px;
+}
+.skills{
+    padding: 30px;
+    box-shadow: 0px 06px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+/* Resume section styles */
+.resume-container{
+    display: flex;
+    gap: 26px;
+}
+.experience-description{
+    color: #757575;
+}
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    /* display: flex; */
+    gap: 130px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"],[type="Email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-family: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    border: none;
 }
